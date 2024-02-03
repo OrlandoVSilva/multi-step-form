@@ -1,0 +1,75 @@
+/*--- Your Info Data Input ---*/
+#your-info-data-input {
+    width: 100%;
+    height: 100%;
+    /*border: 3px solid saddlebrown;*/
+    padding: 20px 40px 20px 40px;
+    display: grid;
+    grid-template-rows: 20% 25% 25% 25%;
+    grid-template-columns: 100%;
+    /* REMOVE LATER */
+}
+
+#your-info-header {
+    /*border: 2px solid red;*/
+}
+
+#your-info-header p:nth-of-type(1) {
+    color: hsl(213, 96%, 18%);
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+#your-info-header p:nth-of-type(2) {
+    font-size: .8em;
+    color: gray;
+    margin-top: 5px;
+}
+
+#your-info-name {
+    /*border: 2px solid green;*/
+}
+
+#your-info-email {
+    /*border: 2px solid yellow;*/
+}
+
+#your-info-phoneNumber {
+    /*border: 2px solid purple;*/
+}
+
+.input-labels {
+    /*border: 2px solid pink;*/
+    display: flex;
+    justify-content: space-between;
+    height: 30%;
+}
+
+.input-labels p {
+    font-size: .9em;
+}
+
+.input-labels p:nth-of-type(1) {
+    color: hsl(213, 96%, 18%);
+}
+
+.input-labels p:nth-of-type(2) {
+    display: none;
+}
+
+.input-textField {
+    /*border: 2px solid red;*/
+    height: 60%;
+    padding: 2px 0 2px 0;
+}
+
+.textField {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    font-size: .8em;
+}
+
+/*--- Your Info Data Input ---*/

@@ -1,0 +1,125 @@
+#form {
+    /*border: 2px solid red;*/
+    border-radius: 10px;
+    padding: 10px;
+    width: 60%;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 30% 70%;
+    overflow: hidden;
+}
+
+/* --- Form Options --- */
+#form-options-section {
+    /*border: 2px solid gold;*/
+    border-radius: 10px;
+    padding: 20px;
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+    background-image: url("../../multi-step-form-main/assets/images/bg-sidebar-desktop.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.option {
+    width: 100%;
+    height: 50px;
+    /*border: 2px solid palegreen;*/
+    background-color: transparent;
+    display: flex;
+}
+
+.option-number-icon {
+    width: 30%;
+    height: 100%;
+    /*border: 2px solid blue;*/
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option-number {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.option-number span {
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    font-size: .8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+.option-number:hover {
+    cursor: pointer;
+    background-color: hsl(206, 94%, 95%);
+}
+
+.option-number:hover>span {
+    color: hsl(213, 96%, 18%);
+}
+*/
+
+.option-description {
+    width: 70%;
+    height: 100%;
+    /*border: 2px solid green*/
+    padding: 12px 0 12px 0;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.option-description p {
+    background-color: transparent;
+    font-size: .7em;
+    font-weight: 500;
+    color: white;
+}
+
+.option-description p:nth-child(1) {
+    font-size: .6em;
+    color: gray;
+}
+
+.option-description p:nth-child(2) {
+    font-size: .7em;
+}
+
+/* --- Form Options --- */
+
+/* --- Form Fill --- */
+#form-fill-information-section {
+    /*border: 2px solid blue;*/
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
+}
+
+#form-data-input-section {
+    width: 100%;
+    height: 85%;
+    /*border: 2px solid pink;*/
+}
+
+/* Inside Form Fill is: YourInfo, MonthlyPayment */
+
+/* --- Form Fill --- */

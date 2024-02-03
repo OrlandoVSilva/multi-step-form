@@ -1,0 +1,214 @@
+/*--- Payment Plan Data Input ---*/
+#payment-plan-data-input {
+    width: 100%;
+    height: 100%;
+    /*border: 3px solid orange;*/
+    padding: 20px 40px 40px 40px;
+    display: grid;
+    grid-template-rows: 25% 55% 20%;
+    grid-template-columns: 100%;
+    row-gap: 5px;
+}
+
+/*--- Header ---*/
+#payment-plan-header {
+    /*border: 2px solid khaki;*/
+}
+
+#payment-plan-header p:nth-of-type(1) {
+    color: hsl(213, 96%, 18%);
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+#payment-plan-header p:nth-of-type(2) {
+    font-size: .8em;
+    color: gray;
+    margin-top: 5px;
+}
+
+/*--- Header ---*/
+
+/*--- Payment Plan Monthly ---*/
+#payment-plan-monthly-options {
+    /*border: 2px solid firebrick;*/
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.monthly-card {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 32%;
+    overflow: hidden;
+}
+
+.monthly-card:hover {
+    cursor: pointer;
+    border: 1px solid darkblue;
+}
+
+.monthly-card-icon {
+    /*border: 2px solid red;*/
+    width: 100%;
+    height: 50%;
+    background-color: transparent;
+}
+
+.monthly-card-pricing {
+    /*border: 2px solid green;*/
+    width: 100%;
+    height: 50%;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.monthly-card-pricing p {
+    background-color: transparent;
+}
+
+.monthly-card-pricing p:nth-child(1) {
+    color: hsl(213, 96%, 18%);
+    font-weight: 800;
+    font-size: .9em;
+}
+
+.monthly-card-pricing p:nth-child(2) {
+    font-size: .8em;
+    color: gray;
+    margin-top: 5px;
+}
+
+.arcade-icon {
+    background-image: url("../../multi-step-form-main/assets/images/icon-arcade.svg");
+    background-position: 10% 50%;
+    background-size: 30%;
+    background-repeat: no-repeat;
+}
+
+.advanced-icon {
+    background-image: url("../../multi-step-form-main/assets/images/icon-advanced.svg");
+    background-position: 10% 50%;
+    background-size: 30%;
+    background-repeat: no-repeat;
+}
+
+.pro-icon {
+    background-image: url("../../multi-step-form-main/assets/images/icon-pro.svg");
+    background-position: 10% 50%;
+    background-size: 30%;
+    background-repeat: no-repeat;
+}
+
+/*--- Payment Plan Monthly ---*/
+
+/*--- Payment Plan Yearly ---*/
+#payment-plan-yearly-options {
+    /*border: 2px solid firebrick;*/
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.yearly-card {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 32%;
+    overflow: hidden;
+}
+
+.yearly-card:hover {
+    cursor: pointer;
+    border: 1px solid darkblue;
+}
+
+.yearly-card-icon {
+    /*border: 2px solid red;*/
+    width: 100%;
+    height: 50%;
+    background-color: transparent;
+}
+
+.yearly-card-pricing {
+    /*border: 2px solid green;*/
+    width: 100%;
+    height: 50%;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.yearly-card-pricing p {
+    background-color: transparent;
+}
+
+.yearly-card-pricing p:nth-child(1) {
+    color: hsl(213, 96%, 18%);
+    font-weight: 800;
+    font-size: .9em;
+}
+
+.yearly-card-pricing p:nth-child(2) {
+    font-size: .8em;
+    color: gray;
+    margin-top: 5px;
+}
+
+.yearly-card-pricing p:nth-child(3) {
+    font-size: .7em;
+    color: darkblue;
+    margin-top: 5px;
+}
+
+/*--- Payment Plan Yearly ---*/
+
+#payment-plan-monthly-yearly-slider {
+    /*border: 2px solid forestgreen;*/
+    background-color: hsl(206, 94%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+}
+
+#payment-plan-monthly-yearly-slider p {
+    background-color: hsl(206, 94%, 95%);
+}
+
+/* --- Slider --- */
+#slider {
+    /*border: 2px solid black;*/
+    border-radius: 20px;
+    height: 100%;
+    width: 50px;
+    padding: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: hsl(213, 96%, 18%);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#slider:hover {
+    cursor: pointer;
+}
+
+#slider-ball {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+/* --- Slider --- */
+
+/*--- Payment Plan Data Input ---*/
